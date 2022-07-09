@@ -1,0 +1,21 @@
+.logo {
+  height: 45px;
+  width: 220px;
+}
+.imgpos {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 10px;
+}
+#img2 {
+  padding: 0px 405px;
+}
+@media (max-width: 500px) {
+  .logo {
+    height: 30px;
+    width: 100px;
+  }
+  #img2 {
+    padding: 0px 100px;
+  }
+}
